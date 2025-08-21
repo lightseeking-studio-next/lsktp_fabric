@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "lsktp",
+  "version": "0.4.1",
+  "name": "lsktp_fabric_1.21.8",
+  "description": "这是一个不需要op也能传送玩家到指定坐标的服务端模组!",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/lsktp/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "lsk.lsktp.client.LsktpDataGenerator"
+    ],
+    "client": [
+      "lsk.lsktp.client.LsktpClient"
+    ],
+    "main": [
+      "lsk.lsktp.Lsktp"
+    ]
+  },
+  "mixins": [
+    "lsktp.mixins.json",
+    {
+      "config": "lsktp.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
