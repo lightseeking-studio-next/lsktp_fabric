@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "lsktp",
-  "version": "0.4.1",
+  "version": "0.7",
   "name": "lsktp_fabric_1.21.8",
   "description": "这是一个不需要op也能传送玩家到指定坐标的服务端模组!",
   "authors": [],
@@ -28,7 +28,7 @@
     }
   ],
   "depends": {
-    "fabricloader": ">=${loader_version}",
+    "fabricloader": ">=0.17.0",
     "fabric": "*",
     "minecraft": "${minecraft_version}"
   }
