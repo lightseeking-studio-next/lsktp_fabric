@@ -1,0 +1,27 @@
+{
+  "projectPath": ":",
+  "classpaths": {
+    "test": [
+      "E:\\lsktp_fabric_1.21.10\\build\\classes\\java\\test",
+      "E:\\lsktp_fabric_1.21.10\\build\\resources\\test",
+      "E:\\lsktp_fabric_1.21.10\\out\\production\\lsktp_fabric_1.21.10.test",
+      "E:\\lsktp_fabric_1.21.10\\out\\test\\classes",
+      "E:\\lsktp_fabric_1.21.10\\out\\test\\resources"
+    ],
+    "client": [
+      "E:\\lsktp_fabric_1.21.10\\build\\classes\\java\\client",
+      "E:\\lsktp_fabric_1.21.10\\build\\resources\\client",
+      "E:\\lsktp_fabric_1.21.10\\out\\production\\lsktp_fabric_1.21.10.client",
+      "E:\\lsktp_fabric_1.21.10\\out\\client\\classes",
+      "E:\\lsktp_fabric_1.21.10\\out\\client\\resources"
+    ],
+    "main": [
+      "E:\\lsktp_fabric_1.21.10\\build\\classes\\java\\main",
+      "E:\\lsktp_fabric_1.21.10\\build\\resources\\main",
+      "E:\\lsktp_fabric_1.21.10\\build\\devlibs\\lsktp_fabric_1-21-10-0.7-dev.jar",
+      "E:\\lsktp_fabric_1.21.10\\out\\production\\lsktp_fabric_1.21.10.main",
+      "E:\\lsktp_fabric_1.21.10\\out\\production\\classes",
+      "E:\\lsktp_fabric_1.21.10\\out\\production\\resources"
+    ]
+  }
+}
