@@ -1,0 +1,23 @@
+/lsktp minecraft:the_end 100 200.4 300
+/lsktp 200 300.4 300
+/lsktp 200 300.4 300.5
+/lsktp 200 300.4 300.5344
+/lsktp ~ ~ ~
+/lsktp 100 ~ 100
+/
+/lsktp 60 ~ 60
+/
+/lsktp ~ 100 ~
+/lsktp 100 ~5 200
+/lsktp 100 ~-5 200
+/lsktp ~ ~ ~
+/tp ~ ~ ~
+/
+/tp 100 ~ 100
+/locate structure #minecraft:ocean_ruin
+/tp -560 ~ 176
+/
+/lsktp ~ ~ ~
+/lsktp ~ 200 ~
+/lsktp minecraft:the_end 100 ~ 100
+/lsktp 100 100 100

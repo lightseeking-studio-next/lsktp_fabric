@@ -1,0 +1,28 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "minecraft:dirt": 6
+    },
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 2262,
+      "minecraft:time_since_rest": 59,
+      "minecraft:fall_one_cm": 7990,
+      "minecraft:walk_one_cm": 697,
+      "minecraft:total_world_time": 8138,
+      "minecraft:fly_one_cm": 3376,
+      "minecraft:damage_taken": 670,
+      "minecraft:play_time": 2364,
+      "minecraft:deaths": 2,
+      "minecraft:jump": 25,
+      "minecraft:time_since_death": 20
+    },
+    "minecraft:mined": {
+      "minecraft:dirt": 5,
+      "minecraft:grass_block": 1
+    },
+    "minecraft:picked_up": {
+      "minecraft:dirt": 6
+    }
+  },
+  "DataVersion": 4671
+}

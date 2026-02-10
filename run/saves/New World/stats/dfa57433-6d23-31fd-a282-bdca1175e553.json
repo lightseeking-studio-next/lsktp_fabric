@@ -1,0 +1,15 @@
+{
+  "stats": {
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 1580,
+      "minecraft:total_world_time": 2036,
+      "minecraft:leave_game": 1,
+      "minecraft:walk_under_water_one_cm": 131,
+      "minecraft:damage_taken": 240,
+      "minecraft:play_time": 1995,
+      "minecraft:deaths": 1,
+      "minecraft:time_since_death": 1553
+    }
+  },
+  "DataVersion": 4671
+}

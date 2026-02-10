@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "lsktp",
+  "version": "1.0",
+  "name": "lsktp",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/lsktp/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "lsk.lsktp.client.LsktpDataGenerator"
+    ],
+    "client": [
+      "lsk.lsktp.client.LsktpClient"
+    ],
+    "main": [
+      "lsk.lsktp.Lsktp"
+    ]
+  },
+  "mixins": [
+    "lsktp.mixins.json",
+    {
+      "config": "lsktp.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "fabric-api": "*",
+    "minecraft": "1.21.11"
+  }
+}
